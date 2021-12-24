@@ -1,3 +1,4 @@
+cd ~
 git clone https://gitee.com/okcd00/tmux 
 mv ./tmux ./.tmux
 mkdir ./.tmux/plugins
