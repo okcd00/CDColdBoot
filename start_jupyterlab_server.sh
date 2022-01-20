@@ -1,1 +1,1 @@
-sudo `which jupyter` serverextension enable --py jupyterlab --sys-prefix 
+`which jupyter` serverextension enable --py jupyterlab --sys-prefix 
