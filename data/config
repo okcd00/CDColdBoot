@@ -1,43 +1,49 @@
 Host c7 
-	hostname 222.74.41.86
-	port 2207
-	identityfile ~/.ssh/id_rsa
+    hostname 222.74.41.86
+    port 2207
+    identityfile ~/.ssh/id_rsa
 Host c8
-	hostname 222.74.41.86
-	port 2205
-	user chend
-	identityfile ~/.ssh/id_rsa
+    hostname 222.74.41.86
+    port 2205
+    user chend
+    identityfile ~/.ssh/id_rsa
 Host c9
-	hostname 222.74.41.86
-	port 2206
-	user chend
-	identityfile ~/.ssh/id_rsa
+    hostname 222.74.41.86
+    port 2206
+    user chend
+    identityfile ~/.ssh/id_rsa
 Host c10
-	hostname 222.74.41.86
-	port 2204
-	user chendian
-	identityfile ~/.ssh/id_rsa
+    hostname 222.74.41.86
+    port 2204
+    user chendian
+    identityfile ~/.ssh/id_rsa
 Host c12
-	hostname office.paodingai.com
-	port 65222
-	user chendian
-	identityfile ~/.ssh/id_rsa
+    hostname office.paodingai.com
+    port 65222
+    user chendian
+    identityfile ~/.ssh/id_rsa
 Host c14
-	hostname office.paodingai.com
-	port 24022
-	user chendian
-	identityfile ~/.ssh/id_rsa
+    hostname office.paodingai.com
+    port 24022
+    user chendian
+    identityfile ~/.ssh/id_rsa
 Host c24
-	hostname 124.16.70.24
-	port 6022
-	user chendian
-	identityfile ~/.ssh/id_rsa
+    hostname 124.16.70.24
+    port 6022
+    user chendian
+    identityfile ~/.ssh/id_rsa
 Host c123
-	hostname office.paodingai.com
-	port 55922
-	user chendian
-	identityfile ~/.ssh/id_rsa
+    hostname office.paodingai.com
+    port 55922
+    user chendian
+    identityfile ~/.ssh/id_rsa
 Host cloud72
-	hostname 127.0.0.1
-	port 40072
-	user panfy
+    hostname 127.0.0.1
+    port 40072
+    user panfy
+Host github.com
+    hostname ssh.github.com
+    user okcd00@qq.com
+    preferredauthentications publickey
+    identityfile ~/.ssh/id_rsa
+    port 443
