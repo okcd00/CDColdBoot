@@ -41,6 +41,10 @@ Host cloud72
     hostname 127.0.0.1
     port 40072
     user panfy
+Host ict
+    hostname 159.226.41.73
+    user xjl
+    port 2333
 Host github.com
     hostname ssh.github.com
     user okcd00@qq.com
