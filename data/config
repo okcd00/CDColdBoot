@@ -1,6 +1,7 @@
-Host c7 
-    hostname 222.74.41.86
-    port 2207
+Host c4
+    hostname office.paodingai.com
+    port 40022
+    user chendian
     identityfile ~/.ssh/id_rsa
 Host c8
     hostname 222.74.41.86
@@ -25,6 +26,11 @@ Host c12
 Host c14
     hostname office.paodingai.com
     port 24022
+    user chendian
+    identityfile ~/.ssh/id_rsa
+Host c21
+    hostname 124.16.70.27
+    port 6022
     user chendian
     identityfile ~/.ssh/id_rsa
 Host c24
