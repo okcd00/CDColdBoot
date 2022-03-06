@@ -1,7 +1,27 @@
+Host c1
+    hostname office.paodingai.com
+    port 10022
+    user chend
+    identityfile ~/.ssh/id_rsa
+Host c2
+    hostname office.paodingai.com
+    port 20022
+    user chend
+    identityfile ~/.ssh/id_rsa
 Host c4
     hostname office.paodingai.com
     port 40022
     user chendian
+    identityfile ~/.ssh/id_rsa
+Host c6
+    hostname 222.74.41.86
+    port 2212
+    user chend
+    identityfile ~/.ssh/id_rsa
+Host c7
+    hostname 222.74.41.86
+    port 2207
+    user chend
     identityfile ~/.ssh/id_rsa
 Host c8
     hostname 222.74.41.86
