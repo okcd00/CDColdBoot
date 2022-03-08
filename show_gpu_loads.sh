@@ -1,0 +1,1 @@
+gpustat | awk '{print $8}' | awk 'BEGIN{cdsum=0}{cdsum+=1}END{print cdsum}'
