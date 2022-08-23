@@ -1,9 +1,9 @@
 # prepare tmux env
 cd ~
-git clone https://gitee.com/okcd00/tmux 
+git clone https://gitee.com/okcd00/tmux.git
 mv ./tmux ./.tmux
 mkdir ./.tmux/plugins
-git clone https://gitee.com/okcd00/tpm ~/.tmux/plugins/tpm
+git clone https://gitee.com/okcd00/tpm.git ~/.tmux/plugins/tpm
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
