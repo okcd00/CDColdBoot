@@ -1,1 +1,1 @@
-watch -n1 --color "gpustat -cpuP --color"
+watch -n1 --color "gpustat -puP --color"
